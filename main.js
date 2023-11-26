@@ -4,4 +4,4 @@ app.use(express.json())
 app.get("/",(req,res)=>{
     res.send({message:"Hello John",success:true})
 })
-app.listen(8000);
+app.listen(8080);
